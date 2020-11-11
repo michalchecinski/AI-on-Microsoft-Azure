@@ -1,0 +1,9 @@
+{
+    "luis": {
+        "CoronaTestBasicSymptoms_en_us_lu": "99019bd1-102c-44c0-b67e-9a3bfbee9029",
+        "CoronaTestCovidContact_en_us_lu": "31d8f048-4505-464b-a729-316198393f49",
+        "CoronaTestSmellTasteLack_en_us_lu": "4cc5c00a-33a7-4e50-bd4f-d72d49014676",
+        "CoronaTest_en_us_lu": "778a20c7-25e8-4896-94bc-0ed91ec46ef9",
+        "coronabot_en_us_lu": "2abf5abe-11d0-442c-931f-b8009905f72e"
+    }
+}

@@ -1,0 +1,66 @@
+
+# CoronaTest
+- I want to test for a corona
+- test for coronavirus
+- test for sars-cov2
+- test me
+- test for covid
+- test for covid19
+- test for covid-19
+- Test for Sars-CoV2
+# View
+- show my appointments
+- can you please show my appointments?
+- please show my appointments list
+- show all my appointments
+- show my appointments
+- do i have any appointments?
+
+
+# UserProfile
+- get started
+- my name is {@userName}
+- Profile
+
+@ prebuilt personName hasRoles userName
+
+
+
+
+
+# whatCanYouDo
+- what can you do?
+
+
+# cancel
+- cancel
+- cancel that
+- stop that
+- abort
+
+
+# ConfirmInput_Response_107784
+- yes
+- no
+
+@ list confirmation = 
+    - yes : 
+		    - yeah
+		    - ok
+		    - yup
+    - no :
+        - nope
+        - not now
+        - not really
+        - go back               > To learn more about the LU file format, read the documentation at
+> https://aka.ms/lu-file-format
+
+# CoronaStats
+- covid stats
+- corona stats
+- coronavirus stats
+- covid statistics
+- corona statistics
+- coronavirus statistics
+
+

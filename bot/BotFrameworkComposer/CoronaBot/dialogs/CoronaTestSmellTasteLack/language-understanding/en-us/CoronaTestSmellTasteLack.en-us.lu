@@ -1,0 +1,11 @@
+
+# ConfirmInput_Response_72PRoe
+- yes
+- no
+
+@ list confirmationTasteSmellLack = 
+    - yes : 
+		    - I don't have smell
+            - I don't have taste           
+    - no :
+        - I have those senses

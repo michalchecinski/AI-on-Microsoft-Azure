@@ -1,0 +1,79 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "i45JOi",
+    "name": "CoronaTestCovidContact",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "KmhmgU"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ConfirmInput",
+          "$designer": {
+            "id": "GMF3iN"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ConfirmInput_Prompt_GMF3iN()}",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "dialog.covidContact",
+          "value": "=@confirmationContact",
+          "style": "auto"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "gUVDtW"
+          },
+          "condition": "dialog.covidContact == true",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "XbXfXq"
+              },
+              "activity": "${SendActivity_XbXfXq()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "3caoL0"
+              },
+              "activity": "${SendActivity_3caoL0()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "5OESdg"
+          },
+          "activityProcessed": true,
+          "dialog": "CoronaTestAddVisit"
+        }
+      ]
+    }
+  ],
+  "generator": "CoronaTestCovidContact.lg",
+  "recognizer": "CoronaTestCovidContact.lu.qna",
+  "id": "CoronaTestCovidContact"
+}

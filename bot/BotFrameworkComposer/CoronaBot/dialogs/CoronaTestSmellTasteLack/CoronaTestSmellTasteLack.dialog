@@ -1,0 +1,70 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "QmknjF",
+    "name": "CoronaTestSmellTasteLack",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "NBjRHq"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ConfirmInput",
+          "$designer": {
+            "id": "72PRoe"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ConfirmInput_Prompt_72PRoe()}",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "dialog.tasteSmellLack",
+          "value": "=@confirmationTasteSmellLack",
+          "style": "auto"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "39GERq"
+          },
+          "condition": "dialog.tasteSmellLack == true",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "RCvxX8"
+              },
+              "activity": "${SendActivity_RCvxX8()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "8wWEOr"
+          },
+          "activityProcessed": true,
+          "dialog": "CoronaTestBasicSymptoms"
+        }
+      ]
+    }
+  ],
+  "generator": "CoronaTestSmellTasteLack.lg",
+  "recognizer": "CoronaTestSmellTasteLack.lu.qna",
+  "id": "CoronaTestSmellTasteLack"
+}

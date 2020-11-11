@@ -1,0 +1,4 @@
+[import](common.lg)
+
+# SendActivity_EribaQ()
+- Currently in Poland there are ${dialog.covidStats.content} total confirmed cases.

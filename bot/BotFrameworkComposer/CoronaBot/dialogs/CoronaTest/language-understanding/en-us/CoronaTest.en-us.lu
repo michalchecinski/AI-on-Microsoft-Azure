@@ -1,0 +1,15 @@
+
+# ConfirmInput_Response_lQcAyc
+- yes
+- no
+
+@ list confirmationBreathingProblems = 
+    - yes : 
+		    - I had problems
+		    - yup
+    - no :
+        - I don't have
+        - not
+        - not really
+
+

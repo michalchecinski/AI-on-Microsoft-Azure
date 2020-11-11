@@ -1,0 +1,8 @@
+{
+    "$kind": "Microsoft.MultiLanguageRecognizer",
+    "id": "LUIS_CoronaTestCovidContact",
+    "recognizers": {
+        "en-us": "CoronaTestCovidContact.en-us.lu",
+        "": "CoronaTestCovidContact.en-us.lu"
+    }
+}

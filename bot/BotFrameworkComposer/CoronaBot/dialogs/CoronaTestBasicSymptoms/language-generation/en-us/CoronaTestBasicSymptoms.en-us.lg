@@ -1,0 +1,8 @@
+[import](common.lg)
+
+# ConfirmInput_Prompt_AqvwD2()
+- Do you have any of this syptoms: fever over 100F (38 Celsius), snoring, cough, sore throat?
+# SendActivity_OJoNNT()
+- This is probably not a COVID-19. But to be sure you need to do a propper test.
+# SendActivity_aeVTff()
+- This could be a normal flu. But last question will tell me a bit more.

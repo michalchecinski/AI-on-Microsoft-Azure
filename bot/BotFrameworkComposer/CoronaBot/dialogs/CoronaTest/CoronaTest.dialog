@@ -1,0 +1,84 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "mQwpei",
+    "name": "CoronaTest"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "id": "3RdsoU"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "B2XqUq"
+          },
+          "activity": "${SendActivity_B2XqUq()}"
+        },
+        {
+          "$kind": "Microsoft.ConfirmInput",
+          "$designer": {
+            "id": "lQcAyc"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ConfirmInput_Prompt_lQcAyc()}",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "dialog.breathingProblems",
+          "value": "=@confirmationBreathingProblems",
+          "style": "auto"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "1G9kXl"
+          },
+          "condition": "dialog.breathingProblems == true",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "VmdjVq"
+              },
+              "activity": "${SendActivity_VmdjVq()}"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "QDZ20m"
+              },
+              "activityProcessed": true,
+              "dialog": "CoronaTestAddVisit"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "roYWv6"
+              },
+              "activityProcessed": true,
+              "dialog": "CoronaTestSmellTasteLack"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "CoronaTest.lg",
+  "recognizer": "CoronaTest.lu.qna",
+  "id": "CoronaTest"
+}

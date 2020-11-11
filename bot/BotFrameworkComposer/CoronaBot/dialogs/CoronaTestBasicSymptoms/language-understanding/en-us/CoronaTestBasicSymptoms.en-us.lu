@@ -1,0 +1,13 @@
+
+# ConfirmInput_Response_AqvwD2
+- yes
+- no
+
+@ list confirmationBreathingProblems = 
+    - yes : 
+		    - I have those sympthoms
+		    - yup
+    - no :
+        - I don't have those sympthoms
+        - no
+        - not really

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\dev\studia\AI-on-Microsoft-Azure\bot\CoronaBot" t="IncludeFlat">
+      <e p="CoronaBot.Functions" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+        <e p="CoronaBot.Functions.csproj" t="IncludeRecursive" />
+        <e p="CoronavirusCases.cs" t="Include" />
+        <e p="CovidData.cs" t="Include" />
+        <e p="host.json" t="Include" />
+        <e p="local.settings.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CoronaBot.Functions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CoronaBot.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Michal\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Michal\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CoronaBot.996560444.00" t="ExcludeRecursive" />
+  </component>
+</project>

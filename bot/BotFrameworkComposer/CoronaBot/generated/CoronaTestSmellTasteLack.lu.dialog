@@ -1,0 +1,8 @@
+{
+    "$kind": "Microsoft.MultiLanguageRecognizer",
+    "id": "LUIS_CoronaTestSmellTasteLack",
+    "recognizers": {
+        "en-us": "CoronaTestSmellTasteLack.en-us.lu",
+        "": "CoronaTestSmellTasteLack.en-us.lu"
+    }
+}

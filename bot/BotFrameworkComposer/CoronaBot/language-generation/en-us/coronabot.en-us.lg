@@ -1,0 +1,10 @@
+[import](common.lg)
+
+# SendActivity_Welcome
+- ${WelcomeUser()}
+
+# SendActivity_mnODFb()
+[Activity
+    Text = How can I help today?
+    SuggestedActions = Test for Sars-CoV2 | Covid stats | Covid info
+]

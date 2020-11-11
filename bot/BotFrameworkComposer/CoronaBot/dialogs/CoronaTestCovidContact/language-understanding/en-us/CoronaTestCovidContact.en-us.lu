@@ -1,0 +1,14 @@
+
+# ConfirmInput_Response_GMF3iN
+- yes
+- no
+
+@ list confirmationContact = 
+    - yes : 
+		    - maybe
+		    - propably I had
+    - no :
+        - nope
+        - I haven't had contact
+        - probably I haven't
+

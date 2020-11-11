@@ -1,0 +1,80 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "76i50Q",
+    "name": "CoronaTestBasicSymptoms",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "sFxIXn"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ConfirmInput",
+          "$designer": {
+            "id": "AqvwD2"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ConfirmInput_Prompt_AqvwD2()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "dialog.basicSympoms"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "YamOHA"
+          },
+          "condition": "dialog.basicSympoms == true",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "OJoNNT"
+              },
+              "activity": "${SendActivity_OJoNNT()}"
+            }
+          ],
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "aeVTff"
+              },
+              "activity": "${SendActivity_aeVTff()}"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "kOzNHO"
+              },
+              "activityProcessed": true,
+              "dialog": "CoronaTestCovidContact"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "CoronaTestBasicSymptoms.lg",
+  "recognizer": "CoronaTestBasicSymptoms.lu.qna",
+  "id": "CoronaTestBasicSymptoms"
+}

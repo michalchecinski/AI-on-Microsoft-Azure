@@ -1,0 +1,8 @@
+{
+    "$kind": "Microsoft.MultiLanguageRecognizer",
+    "id": "LUIS_coronabot",
+    "recognizers": {
+        "en-us": "coronabot.en-us.lu",
+        "": "coronabot.en-us.lu"
+    }
+}
