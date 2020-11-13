@@ -1,0 +1,7 @@
+[import](common.lg)
+
+# SendActivity_q1OISB()
+[Activity
+    Text = How can I help today?
+    SuggestedActions = Test for Sars-CoV2 | Covid stats
+]

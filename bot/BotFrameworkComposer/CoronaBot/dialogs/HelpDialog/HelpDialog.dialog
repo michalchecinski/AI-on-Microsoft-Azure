@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "dJbfh2",
+    "name": "HelpDialog",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Ye32v4"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "q1OISB"
+          },
+          "activity": "${SendActivity_q1OISB()}"
+        }
+      ]
+    }
+  ],
+  "generator": "HelpDialog.lg",
+  "recognizer": "HelpDialog.lu.qna",
+  "id": "HelpDialog"
+}

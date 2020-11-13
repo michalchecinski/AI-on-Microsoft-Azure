@@ -22,7 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f46e6f61-40c2-453a-a921-d7a122cd68b1" name="Default Changelist" comment="" />
+    <list default="true" id="f46e6f61-40c2-453a-a921-d7a122cd68b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/coronabot.dialog" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/coronabot.dialog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaStats/CoronaStats.dialog" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaStats/CoronaStats.dialog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTest/CoronaTest.dialog" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTest/CoronaTest.dialog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTestBasicSymptoms/CoronaTestBasicSymptoms.dialog" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTestBasicSymptoms/CoronaTestBasicSymptoms.dialog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTestCovidContact/CoronaTestCovidContact.dialog" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/dialogs/CoronaTestCovidContact/CoronaTestCovidContact.dialog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/generated/luis.settings.composer.westus.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/generated/luis.settings.composer.westus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/language-generation/en-us/coronabot.en-us.lg" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/language-generation/en-us/coronabot.en-us.lg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/language-understanding/en-us/coronabot.en-us.lu" beforeDir="false" afterPath="$PROJECT_DIR$/../BotFrameworkComposer/CoronaBot/language-understanding/en-us/coronabot.en-us.lu" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605095577376</updated>
       <workItem from="1605095604419" duration="4423000" />
+      <workItem from="1605264777374" duration="612000" />
     </task>
     <servers />
   </component>
@@ -96,27 +106,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1605114862017">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1605265411788">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605114862017" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1605114862017">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605265411788" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1605265411788">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605114862017" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1605114862016">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605265411788" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1605265411788">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605114862016" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1605114862017">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605265411788" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1605265411788">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605114862017" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605265411788" />
     <state width="1877" height="423" key="GridCell.Tab.1.bottom" timestamp="1605114861764">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -185,24 +196,5 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="968" height="588" key="XDebugger.FullValuePopup/-1920.0.1536.832/0.0.1920.1160@0.0.1920.1160" timestamp="1605099239844" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CoronaBot.Functions/CoronavirusCases.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\dev\studia\AI-on-Microsoft-Azure\bot\CoronaBot\CoronaBot.Functions\CoronavirusCases.cs" initialLine="28">
-            <startOffsets>
-              <option value="1103" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1171" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

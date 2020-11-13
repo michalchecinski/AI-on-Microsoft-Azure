@@ -33,6 +33,14 @@
             "id": "EribaQ"
           },
           "activity": "${SendActivity_EribaQ()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "UH8SGF"
+          },
+          "activityProcessed": true,
+          "dialog": "HelpDialog"
         }
       ]
     }

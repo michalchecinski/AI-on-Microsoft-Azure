@@ -61,7 +61,7 @@
                 "id": "QDZ20m"
               },
               "activityProcessed": true,
-              "dialog": "CoronaTestAddVisit"
+              "dialog": "HelpDialog"
             }
           ],
           "elseActions": [

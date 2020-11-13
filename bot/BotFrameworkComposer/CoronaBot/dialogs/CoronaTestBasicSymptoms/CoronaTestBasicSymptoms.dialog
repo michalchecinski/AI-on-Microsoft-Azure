@@ -51,6 +51,14 @@
                 "id": "OJoNNT"
               },
               "activity": "${SendActivity_OJoNNT()}"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "hzNrRb"
+              },
+              "activityProcessed": true,
+              "dialog": "HelpDialog"
             }
           ],
           "actions": [

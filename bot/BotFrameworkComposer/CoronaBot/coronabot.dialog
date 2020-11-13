@@ -40,11 +40,12 @@
                   "activity": "${SendActivity_Welcome()}"
                 },
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "mnODFb"
+                    "id": "hy4GAr"
                   },
-                  "activity": "${SendActivity_mnODFb()}"
+                  "activityProcessed": true,
+                  "dialog": "HelpDialog"
                 }
               ]
             }
