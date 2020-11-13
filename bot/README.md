@@ -8,7 +8,7 @@ Bot was created to help recognise COVID-19 symptoms and to provide helpful and r
 
 ### Video demo
 
-
+https://www.youtube.com/watch?v=1jVpYMitjqY
 
 ## Bot architecture
 
