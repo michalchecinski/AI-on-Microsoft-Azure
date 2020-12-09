@@ -15,3 +15,12 @@ Repository for the lecture [AI on Microsoft Azure](https://github.com/ekote/AI-o
 | 18.11 | Process and Translate Speech with Azure Cognitive Speech Services | [Azure cognitive bot services.md](https://github.com/michalchecinski/AI-on-Microsoft-Azure/blob/main/bot/03.%20Azure%20Cognitive%20Speech%20Services.md)  |
 
 During this stage of lab the author created a chat bot, which helps in covid. Documentation for this bot can be found here: [CoronaBot README](https://github.com/michalchecinski/AI-on-Microsoft-Azure/blob/main/bot/README.md)
+
+### Vision cognitive services
+
+Description of the Azure Computer Vision, Custom Vision, Video Indexer can be found here: [Azure Computer Vision services.md](https://github.com/michalchecinski/AI-on-Microsoft-Azure/blob/main/vision/Azure Computer Vision services.md)
+
+During this stage of lab the author created an self service checkout app for stores. Documentation for this app can be found here: [Product identification README](https://github.com/michalchecinski/AI-on-Microsoft-Azure/blob/main/vision/README.md).
+
+Repository holding code for this solution can be found here: [michalchecinski/product-identification (github.com)](https://github.com/michalchecinski/product-identification)
+
